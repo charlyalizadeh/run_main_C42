@@ -17,16 +17,9 @@ export PATH="$PATH:~/bin"
 
 # Usage
 
-This program assumes that your directory looks like this:
-
-```bash
-$ ls -l
-ex00/ft_example00.c
-ex01/ft_example01.c
-...
-```
 
 You should structure your `ft_*.c` file as such:
+
 ```c
 /* ************************************************************************** */
 /*                                                                            */
@@ -58,6 +51,22 @@ int main(void)
 
 MAIN END*/
 ```
+
+This program assumes that your directory looks like this:
+
+```bash
+$ ls -l
+ex00/ft_example00.c
+ex01/ft_example01.c
+...
+```
+
+Inside your C project with all you exercices run:
+```bash
+run_main_42.sh # (or ~/bin/run_main_42.sh if bash says 'command not found')
+```
+
+
 
 The program will uncomment your main, compile all the c file inside each exercice run the output executables.
 To check if the main is already decommented (in case of running this program multiple times) a file named `.main_decommented` is created. **DO NOT DELETE IT**.
