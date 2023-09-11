@@ -13,6 +13,7 @@ mv run_main_C42/run_main_42.sh ~/bin/
 ```bash
 export PATH="$PATH:~/bin"
 ```
+3. Close the current terminal and open another one to test this program
 
 # Usage
 
@@ -48,8 +49,8 @@ void	ft_example()
 FLAGS=-lbsd
 */
 
-/*MAIN START (include all the header used for your main in the comment)
-
+/*MAIN START
+(include all the header used for your main in the comment)
 int main(void)
 {
 	ft_example()
