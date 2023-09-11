@@ -1,6 +1,6 @@
 # run_main_C42
 
-A small utility to run all the commented main inside a C project from the 42 piscine.
+A small utility to run all the commented mains inside a C project from the 42 piscine.
 
 # Installation
 
@@ -70,5 +70,5 @@ $ run_main_42.sh # (or ~/bin/run_main_42.sh if bash says 'command not found')
 
 
 
-The program will uncomment your main, compile all the c file inside each exercice run the output executables.
+The program will uncomment your mains, compile all the c files inside each exercice and run the output executables.
 To check if the main is already decommented (in case of running this program multiple times) a file named `.main_decommented` is created. **DO NOT DELETE IT**.
