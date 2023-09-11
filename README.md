@@ -43,7 +43,9 @@ FLAGS=-lbsd
 */
 
 /*MAIN START
+
 (include all the header used for your main in the comment)
+
 int main(void)
 {
 	ft_example()
