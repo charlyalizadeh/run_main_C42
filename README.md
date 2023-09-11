@@ -65,7 +65,7 @@ ex01/ft_example01.c
 
 Inside your C project with all you exercices run:
 ```bash
-run_main_42.sh # (or ~/bin/run_main_42.sh if bash says 'command not found')
+$ run_main_42.sh # (or ~/bin/run_main_42.sh if bash says 'command not found')
 ```
 
 
